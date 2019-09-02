@@ -376,7 +376,7 @@ txtZ = new TextField("Ingrese el vector Z:", "", 32, TextField.ANY);//GEN-LINE:|
                 int det = (xx1*yy2*zz3 + xx2*yy3*zz1 + xx3*yy1*zz2 - zz1*yy2*xx3 - yy1*xx2*zz3 - xx1*zz2*yy3);
                 float volumen = det / 6;
 
-            g.drawString("El volumen es:"+volumen, centroX, centroY+100, (Graphics.BASELINE| Graphics.HCENTER));
+            g.drawString("El volumen es: "+volumen, centroX, centroY+100, (Graphics.BASELINE| Graphics.HCENTER));
         }
     }
     
